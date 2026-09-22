@@ -11,7 +11,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/mahakantil/JavaProject.git',
+                        url: 'https://github.com/mahakantil/JavaProject1.git',
+
                     credentialsId: 'github_pipeline'
             }
         }
